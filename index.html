@@ -336,29 +336,31 @@
     </div>
   </section><br><br>
   <section>
-    <div class="bg-white p-8 md:p-12 lg:p-16 rounded-lg shadow-lg max-w-lg w-full">
-      <!-- Heading -->
-      <div class="text-center mb-6">
-        <div class="flex justify-center mb-4">
+    <div class="flex items-center justify-center min-h-screen bg-gray-100">
+      <div class="bg-white p-8 md:p-12 lg:p-16 rounded-lg shadow-lg max-w-lg w-full">
+        <!-- Heading -->
+        <div class="text-center mb-6">
+          <div class="flex justify-center mb-4">
             <button class="bg-green-500 text-white px-8 py-3 rounded-full font-semibold">Let's Connect</button>
+          </div>
+          <h1 class="text-4xl font-extrabold text-gray-800 mb-4">Let's Discuss Your Next Project</h1>
+          <p class="text-gray-500 mt-2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
-        <h1 class="text-4xl font-extrabold text-gray-800 mb-4">Let's Discuss Your Next Project</h1>
-        <p class="text-gray-500 mt-2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+    
+        <!-- Form -->
+        <form class="space-y-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="text" placeholder="First Name*" class="input input-bordered w-full" required />
+            <input type="text" placeholder="Last Name*" class="input input-bordered w-full" required />
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="tel" placeholder="Phone Number*" class="input input-bordered w-full" required />
+            <input type="email" placeholder="Email*" class="input input-bordered w-full" required />
+          </div>
+          <textarea placeholder="Write your message here" class="textarea textarea-bordered w-full" rows="4"></textarea>
+          <button type="submit" class="btn btn-success w-full mt-4">Send Mail</button>
+        </form>
       </div>
-  
-      <!-- Form -->
-      <form class="space-y-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <input type="text" placeholder="First Name*" class="input input-bordered w-full" required />
-          <input type="text" placeholder="Last Name*" class="input input-bordered w-full" required />
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <input type="tel" placeholder="Phone Number*" class="input input-bordered w-full" required />
-          <input type="email" placeholder="Email Number*" class="input input-bordered w-full" required />
-        </div>
-        <textarea placeholder="Write your message here" class="textarea textarea-bordered w-full" rows="4"></textarea>
-        <button type="submit" class="btn btn-success w-full mt-4">Send Mail</button>
-      </form>
     </div>
   </section>
   <section>
